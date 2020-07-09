@@ -1,16 +1,20 @@
-<template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-      </nav>
-    </header>
-    <slot/>
-  </div>
-</template>
+  <template>
+    <div>
+      <vs-button>
+        Active
+      </vs-button>
+    <button class="bg-blue-500 rounded">
+      Button
+    </button>
+     <vs-button
+        icon
+        :active="active == 0"
+        @click="active = 0"
+      >
+        <i class='bx bx-home-alt'></i>
+      </vs-button>
+    </div>
+  </template>
 
 <static-query>
 query {

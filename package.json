@@ -7,6 +7,16 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "@braid/vue-formulate": "^2.4.2",
+    "aos": "^2.3.4",
+    "axios": "^0.19.2",
+    "boxicons": "^2.0.5",
+    "gridsome": "^0.7.0",
+    "material-icons": "^0.3.1",
+    "vue-scrollto": "^2.18.1",
+    "vuesax": "^4.0.1-alpha.22"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^3.0.1"
   }
 }

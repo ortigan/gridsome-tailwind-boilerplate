@@ -1,4 +1,8 @@
 module.exports = {
     siteName: 'MGM IBT',
-    plugins: []
+    plugins: [
+        {
+            use: "gridsome-plugin-tailwindcss",
+        }
+    ]
 }
